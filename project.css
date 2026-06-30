@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: lightyellow;
+}
+nav{
+    background-color: rgb(72, 207, 203);
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    top: 0;
+}
+.logo{
+    font-size: 32px;
+    font-weight: bold;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+nav ul li{
+    margin-left: 30px;
+}
+nav ul li a:hover{
+    color: mediumvioletred;
+    text-decoration: none;
+    transition: 3s;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: white;
+    align-items: flex-start;
+    padding: 100px 40px;
+}
+.left h1{
+    font-size: 60px;
+    color: black;
+}
+.left p{
+    margin-top: 30px;
+    font-size: 20px;
+    color: mediumslateblue;
+}
+.left button{
+    margin-top: 90px;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: darkblue;
+    color: blueviolet;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 2s
+}
+.right {
+   margin-left: 250px;
+   width: 540px;
+   margin-block: -240px;
+   
+}
+.hero p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.hero button{
+    margin-top: 25px;
+    padding: 15px 30px;
+    background-color:mediumpurple;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transfrom 0.2s ease, background-color 0.35s ease;
+}
+.hero button:hover{
+    background-color: yellowgreen;
+    transform: translateY(-3px);
+}
+
+.card{
+    background-color: mediumpurple;
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 10px lightcyan;
+    transition: 2s;
+}
+.card:hover{
+    transform: translateY(-7px);
+}
+.chatbot input{
+    width: 70%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius:15px ;
+    background-color:mediumorchid ;
+}
+.chatbot button{
+    padding: 10px 20px;
+    background-color: rgb(10, 151, 144);
+    color: aqua;
+    border: none;
+    border-radius: 10px;
+}
+.chatbox button:hover{
+    background-color: aqua;
+}
+#chatbot{
+    height: 250px;
+    overflow: auto;
+    border:1px solid lightgray;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+.bot{
+    background-color: aqua;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+}
+footer{
+    background-color: rgb(37, 194, 168);
+    padding: 25px;
+    text-align: center;
+    padding: 50px;
+}
+
